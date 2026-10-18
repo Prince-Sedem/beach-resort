@@ -124,7 +124,7 @@ function RoomCard({ room }) {
         onClick={() => openBooking('room', { room: room.name })}
         className="mt-5 inline-flex items-center gap-2 self-start rounded-full border border-ink/20 px-5 py-2.5 text-[14.5px] font-semibold text-ink transition-colors hover:border-ink hover:bg-ink hover:text-white"
       >
-        <WhatsAppIcon size={18} />
+        <div size={18} />
         Book this room
       </button>
     </article>
@@ -157,7 +157,7 @@ export function Offer() {
                 onClick={() => openBooking('package')}
                 className="inline-flex items-center gap-2 rounded-full bg-lantern px-6 py-3 text-[15.5px] font-semibold text-ink transition-transform hover:-translate-y-0.5"
               >
-                <WhatsAppIcon size={19} />
+                <div size={19} />
                 Ask about dates
               </button>
               <span className="text-[13px] text-white/65">Terms and conditions apply.</span>

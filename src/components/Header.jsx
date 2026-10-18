@@ -64,7 +64,7 @@ export function Nav() {
             onClick={() => openBooking('room')}
             className="hidden items-center gap-2 rounded-full bg-lantern px-5 py-2.5 text-[14.5px] font-semibold text-ink transition-transform hover:-translate-y-0.5 sm:inline-flex"
           >
-            <WhatsAppIcon size={18} />
+            <div size={18} />
             Book now
           </button>
           <button
@@ -264,7 +264,7 @@ function QuickBook() {
         type="submit"
         className="col-span-2 flex items-center justify-center gap-2 rounded-xl bg-lantern px-6 py-4 sm:col-span-1 text-[15.5px] font-semibold text-ink transition-colors hover:bg-[#f5c262] lg:px-8"
       >
-        <WhatsAppIcon size={20} />
+        <div size={20} />
         Check availability
       </button>
     </motion.form>

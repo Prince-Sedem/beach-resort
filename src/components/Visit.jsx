@@ -40,7 +40,7 @@ export function Visit() {
               onClick={() => openBooking('room')}
               className="inline-flex items-center gap-2 rounded-full bg-lantern px-5 py-2.5 text-[15px] font-semibold text-ink transition-transform hover:-translate-y-0.5"
             >
-              <WhatsAppIcon size={18} />
+              <div size={18} />
               Book your stay
             </button>
           </div>
@@ -62,7 +62,7 @@ export function Visit() {
           </div>
           <div className="flex min-w-0 flex-col gap-2">
             <dt className="flex items-center gap-2 text-[13.5px] text-lagoon">
-              <WhatsAppIcon size={16} /> WhatsApp
+              <div size={16} /> WhatsApp
             </dt>
             <dd className="text-[16px] text-white/90">
               <a
@@ -163,7 +163,7 @@ export function FloatingWhatsApp() {
           whileHover={{ y: -2 }}
           aria-label="Book on WhatsApp"
         >
-          <WhatsAppIcon size={24} />
+          <div size={24} />
           <span>Book on WhatsApp</span>
         </motion.button>
       )}

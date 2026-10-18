@@ -489,8 +489,8 @@ function BookingSheet() {
                 rel="noopener noreferrer"
                 className="flex w-full items-center justify-center gap-2.5 rounded-full bg-lantern px-6 py-3.5 text-[16px] font-semibold text-ink transition-transform hover:-translate-y-0.5 active:translate-y-0"
               >
-                <WhatsAppIcon size={22} />
-                Continue on WhatsApp
+                <div size={22} />
+                Book
               </a>
               <p className="mt-2 text-center text-[12.5px] text-white/55">
                 Nothing is sent until you press send in WhatsApp. Number: +{WHATSAPP_NUMBER}

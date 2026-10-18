@@ -154,7 +154,7 @@ export function Dining() {
                 onClick={() => openBooking('table')}
                 className="inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3 text-[15.5px] font-semibold text-white transition-transform hover:-translate-y-0.5"
               >
-                <WhatsAppIcon size={19} />
+                <div size={19} />
                 Reserve a table
               </button>
               <a
@@ -224,7 +224,7 @@ export function Spa() {
                   <span className="mt-1 block text-[15px] text-ink/65">{t.note}</span>
                 </span>
                 <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full border border-ink/20 px-4 py-2 text-[14px] font-semibold text-ink transition-colors group-hover:border-ink group-hover:bg-ink group-hover:text-white">
-                  <WhatsAppIcon size={16} />
+                  <div size={16} />
                   Book
                 </span>
               </button>
@@ -258,7 +258,7 @@ export function Events() {
             onClick={() => openBooking('event')}
             className="inline-flex items-center gap-2 self-start rounded-full bg-ink px-6 py-3 text-[15.5px] font-semibold text-white transition-transform hover:-translate-y-0.5 md:self-auto"
           >
-            <WhatsAppIcon size={19} />
+            <div size={19} />
             Plan an event
           </button>
         </div>
